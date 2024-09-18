@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation with Background Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <nav class="navbar">
+        <div class="navbar-brand">Responsive NavBar</div>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Destinations</a></li>
+            <li><a href="#section3">Packages</a></li>
+            <li><a href="#section4">Gallery</a></li>
+            <li><a href="#section5">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="bg-color">
+        <div class="part" id="section1" data-background="#5bd3ed">
+            <div class="content">
+                <h1>Welcome to Travel Explorer</h1>
+                <p>Discover your next adventure with us!</p>
+            </div>
+        </div>
+
+        <div class="part" id="section2" data-background="#5adad3">
+            <div class="content">
+                <h1>Explore Destinations</h1>
+                <p>From tropical beaches to snow-capped mountains, find your dream destination.</p>
+            </div>
+        </div>
+
+        <div class="part" id="section3" data-background="#f6a6e5">
+            <div class="content">
+                <h1>Travel Packages</h1>
+                <p>Check out our affordable packages for family, adventure, and luxury travel.</p>
+            </div>
+        </div>
+
+        <div class="part" id="section4" data-background="#f2eda4">
+            <div class="content">
+                <h1>Photo Gallery</h1>
+                <p>Get inspired by the stunning destinations we've visited!</p>
+            </div>
+        </div>
+
+        <div class="part" id="section5" data-background="#f28888">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <p>Plan your next trip with our travel experts. Reach out to us today!</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/scrollie@1.0.0/dist/scrollie.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
